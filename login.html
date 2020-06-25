@@ -1,16 +1,19 @@
+	<meta charset="utf-8">
+	<script type="text/javascript" src="abc.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <header>
 	
-	<div class="profile"><img src="images/profile.jpg"> </div>
+	<div class="profile"><img src="images/pic4.jpeg"> </div>
 	<label for="profile" class="prof">Twaweza Festival</label>
 			<div class="header">
 				<ul>
 					<li><a href="index.html">HOME</a></li>
-					<li><a href="#">STAFF</a></li>
-					<li><a href="#">ABOUT US</a></li>
-					<li><a href="#">CONTACT</a></li>
+					<li><a href="Staff.html">STAFF</a></li>
+					<li><a href="Aboutus.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
 					<li><a href="login.html">LOGIN</a></li>
 				</ul>
 			</div>	
@@ -20,17 +23,18 @@
 	 <section class="height">
 	 	<form action="index.html" method="POST">
 	 	<div class="l_outer">
+	 		<script> login1();</script>
 	 		<div class="l_heading"><p>LOGIN FORM</p> </div>
 		 		<div class="l2">
 		 			<div>
 		 				<label for="username">Username :</label>
-		 				<input id="username" type="text" name="username" required="" >
+		 				<input id="l_username" type="text" name="username" required="" >
 		 			</div>
 		 			<div>
 		 				<label for="password">Password :</label>
 		 				<input id="password" type="password" name="password" required="" >
 		 			</div>
-		 			<input type="submit" name="login" value="Log-in" onclick="">
+		 			<input type="submit" name="login" value="Log-in" onclick="login1()">
 		 			
 		 		</div>
 		 		<div class="info"><p>Dont have an account?</p><P class="log"><a href="register.html">Sign-Up</a></p></div>

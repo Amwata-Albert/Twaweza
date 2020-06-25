@@ -82,12 +82,13 @@
 		bottom: 0px;
 	}
 	.one, .two, .three{
-		width: 25%;
+		width: 20%;
 		height: auto;
 		margin: 20px;
 		float: left;
 		border-radius: 5px;
-		margin-left: 7%;
+		margin-left: 10%;
+		
 
 	}
 	.two a{
@@ -107,14 +108,74 @@
 	}
 
 	.p1{
+		width: 100%;
+		height: 65%;
+		margin: 20px;
+		border-radius:15px;
+		animation: myanimation 50s infinite;
+		transition-duration: 1s;
+		transition-timing-function: cubic-bezier(0.2,0.5,0.5,1.0,0.7,1.4,2,0.3,0.5,1.7);
+		background-image: url('images/saf.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: darkred;
+		text-align: center;
+		font-size: 40px;
+		font-style:;
+		
+}
+
+	@keyframes myanimation{ 
+		
+		10%{
+			background-image: url('images/simba.jpg');
+			color:lime;
+		}
+		20%{
+			background-image: url('images/concert.jpg');
+			color: yellow;
+		}
+		30%{
+			background-image: url('images/wall.jpg');
+			color: skyblue;
+	
+		}
+		40%{
+			background-image: url('images/festival6.jpg');
+		color:olivedrab;
+	}
+			
+		50%{
+				background-image: url('images/saf.jpg');
+				color: saddlebrown;
+			
+		}
+		60%{
+			background-image: url('images/bikini.jpg');
+			color: aquamarine;
+		}
+		70%{
+			background-image: url('images/conc.jpg');
+			color: brown;
+		}
+		80%{
+			background-image: url('images/festival5.jpg');
+			color:chocolate;
+		}
+		90%{
+			background-image: url('images/festival.png');
+			color: darkmagenta;
+		}
+
 
 	}
 
-	.p1 img{
-		width: 100%;
-		height: 650px;
-		margin: 20px % ;
-		border-radius: px;
+	.p1 h3{
+		color:deepskyblue;
+		text-align: center;
+		font-size: 40px;
+
+		
 
 		
 	}
@@ -262,3 +323,143 @@
 	.height{
 		min-height: 520px;
 	}
+.images img{
+width:48%;
+height: 100%;
+margin-left:1%;
+border: 2px solid black;
+
+}
+.contactimg img{
+width:30%;
+height:auto;
+margin-left: 35%;
+}
+.height h2{
+	text-align: center;
+}
+.contactlist{
+	float:left;
+margin-top: -10%;
+line-height: 35px;
+
+}
+.contactlist2{
+float:left;
+margin-top:-17%;
+margin-right: 15px;
+line-height: 60px;
+}
+.aboutpic{
+	background-image:url("images/wall.jpg");
+}
+.about h2{
+	color:skyblue;
+}
+.aboutp{
+	color:yellow;
+	margin-top: -2%;
+}
+.staff{
+	color:bisque;
+	float:right;
+	margin-top:5%;
+	margin-right: 80%;
+	font-size: large;
+	
+}
+
+.contactpic{
+	background-image:url("images/bikini.jpg");
+}
+.staffpic{
+	background-image:url("images/");
+}
+.ceo{
+	width: 100%;
+	height: 35%;
+	color:darkblue;
+
+
+}
+
+.ceo h2{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+}
+.managers{
+	width: 100%;
+	height: 80%;
+	color:darkblue;
+}
+
+.s1{
+	float: left;
+	margin-left:5%;
+
+	width: 25%;
+}
+.s1 img{
+	width: 150px;
+	height: 150px;
+	border-radius: 80px;
+	float: left;
+
+}
+
+.s2									{
+	float: left;
+	margin-left:5%;
+	
+	width: 20%;
+}
+.s2 img{
+	width: 150px;
+	height: 150px;
+	border-radius: 80px;
+	float: left;
+
+}
+.st{
+	text-align: center;
+}
+
+.descc{
+	float: right;
+	margin-top: 50px;
+	width: 50%;
+	}
+.descc1{
+	float: left;
+	margin-top: 50px;}
+
+.s1 label{
+	margin-left: 1%;
+
+}
+
+.s2 label{
+	margin-left: 1%;
+
+		
+}
+.s21{width: 100px;
+	height: 100px;
+	border-radius: 80px;
+	float:center;
+
+}
+.events{
+color:red;
+margin-left: 70%;
+margin-top: -37%;
+font-size: x-large;
+}
+.vision{
+	color:bisque;
+	float: right;
+	margin-top:-1%
+}

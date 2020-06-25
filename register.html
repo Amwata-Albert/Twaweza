@@ -1,4 +1,4 @@
-	<meta charset="UTF8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="text/javascript" src="abc.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -11,9 +11,10 @@
 			<div class="header">
 				<ul>
 					<li><a href="index.html">HOME</a></li>
-					<li><a href="#">STAFF</a></li>
-					<li><a href="#">ABOUT US</a></li>
-					<li><a href="#">CONTACT</a></li>
+					<li><a href="Staff.html">STAFF</a></li>
+					<li><a href="Aboutus.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
 					<li><a href="login.html">LOGIN</a></li>
 				</ul>
 			</div>	
@@ -38,16 +39,16 @@
 		 				<input id="last_name" type="text" name="last_name" required="" >
 		 			</div>
 		 			<div>
-		 				<label for="email">Email   	   : </label>
-		 				<input id="email" type="text" name="email" required="" >
+		 				<label for="email">Email: </label>
+		 				<input id="email" type="email" name="email" required="" >
 		 			</div>
 		 			<div>
 		 				<label for="password">Password :</label>
 		 				<input id="password" type="password" name="password" required="" >
 		 			</div>
 		 			<div>
-		 				<label for="repeat_password">Repeat Password :</label>
-		 				<input id="repeat_password" type="password" name="repeat_password" required="" >
+		 				<label for="repeat_password">Confirm Password :</label>
+		 				<input id="confirm_password" type="password" name="confirm_password" required="" >
 		 			</div>
 		 			<input type="submit" name="signup" value="Sign-Up" onclick="register()">
 		 			
